@@ -7,3 +7,9 @@ color: beige;
 .hover-link:hover{
     color: black;
 }
+.dubs:hover{
+    color: black;
+}
+.dubs:link {
+    color: black;
+}
