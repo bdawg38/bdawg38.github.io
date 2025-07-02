@@ -1,8 +1,8 @@
 h1 {
-color: beige;
+color: black;
 }
-.website:hover{
-    color: black;
+.header:hover{
+    color: beige;
 }
 .hover-link:hover{
     color: black;
@@ -12,4 +12,12 @@ color: beige;
 }
 .dubs:link {
     color: black;
+}
+.header{
+    border: 2px solid black;
+    display: inline-block;
+    font-family: "Zilla Slab";
+    font-size: 75px;
+    width: 386px;
+    background: linear-gradient(black, beige);
 }
