@@ -17,7 +17,7 @@ color: black;
     border: 2px solid black;
     display: inline-block;
     font-family: "Zilla Slab";
-    font-size: 75px;
-    width: 386px;
+    font-size: 4vw;
+    max-width: 80%;
     background: linear-gradient(black, beige);
 }
