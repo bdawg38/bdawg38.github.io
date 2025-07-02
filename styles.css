@@ -1,4 +1,4 @@
-h1 {
+h1{
 color: black;
 }
 .header:hover{
@@ -10,7 +10,7 @@ color: black;
 .dubs:hover{
     color: black;
 }
-.dubs:link {
+.dubs:link{
     color: black;
 }
 .header{
@@ -21,7 +21,7 @@ color: black;
     max-width: 90%;
     background: linear-gradient(black, beige);
 }
-footer {
+footer{
     clear: both;
     position: sticky;
 }
@@ -38,8 +38,8 @@ footer {
     margin: 0;
     text-align: center;
 }
-.W {
-    display: list-item;          /* Ensure it behaves like a bullet list item */          /* Center the text inside */
+.W{
+    display: list-item;
     position: absolute;
     top: 2%;
     left: 50%;
