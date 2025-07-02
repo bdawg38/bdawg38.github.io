@@ -25,3 +25,25 @@ footer {
     clear: both;
     position: sticky;
 }
+.youtube{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.info{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    text-align: center;
+}
+.W {
+    display: list-item;          /* Ensure it behaves like a bullet list item */          /* Center the text inside */
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    text-align: center;
+  }
