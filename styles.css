@@ -1,49 +1,76 @@
-h1{
-color: black;
+h1 {
+  color: black;
 }
-.header:hover{
-    color: beige;
+
+#soccer-ball-number {
+  color: black;
 }
-.hover-link:hover{
-    color: black;
+
+.header:hover {
+  color: beige;
 }
-.dubs:hover{
-    color: black;
+.hover-link:hover {
+  color: black;
 }
-.dubs:link{
-    color: black;
+.dubs:hover {
+  color: black;
 }
-.header{
-    border: 2px solid black;
-    display: inline-block;
-    font-family: "Zilla Slab";
-    font-size: 190%;
-    max-width: 90%;
-    background: linear-gradient(black, beige);
+.dubs:link {
+  color: black;
 }
-footer{
-    clear: both;
-    position: sticky;
+.header {
+  border: 2px solid black;
+  display: inline-block;
+  font-family: "Zilla Slab";
+  font-size: 190%;
+  max-width: 90%;
+  background: linear-gradient(black, beige);
 }
-.youtube{
-    position: absolute;
+footer {
+  clear: both;
+  position: sticky;
+}
+.youtube {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  text-align: center;
+}
+
+.W {
+  display: list-item;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .info {
+    position: relative;
+    left: 0;
     top: 0;
-    right: 0;
-}
-.info{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    text-align: center;
-}
-.W{
-    display: list-item;
-    position: absolute;
-    top: 2%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    text-align: center;
+    text-align: left;
+    transform: translateX(0%);
   }
+  iframe.youtube {
+    position: relative;
+  }
+  .W {
+    position: relative;
+    left: 0;
+    transform: translateX(0%);
+    text-align: left;
+  }
+}
