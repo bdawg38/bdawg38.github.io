@@ -9,19 +9,21 @@ h1 {
 .header:hover {
   color: beige;
 }
-.dubs:hover {
+.website-1:hover {
   color: black;
 }
-.dubs:hover {
+.email-1:hover {
   color: black;
 }
-.dubs:hover {
+.phone-1:hover {
   color: black;
 }
 .W:hover {
   color: black;
 }
-
+.google-1:hover {
+  color: black;
+}
 .header {
   border: 2px solid black;
   display: inline-block;
