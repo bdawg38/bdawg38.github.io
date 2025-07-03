@@ -9,13 +9,13 @@ h1 {
 .header:hover {
   color: beige;
 }
-.hover-link:hover {
+.dubs:hover {
   color: black;
 }
 .dubs:hover {
   color: black;
 }
-.dubs:link {
+.dubs:hover {
   color: black;
 }
 .header {
@@ -37,7 +37,7 @@ footer {
   width: 500px;
 }
 
-.info {
+.more-info {
   position: absolute;
   top: 0;
   left: 50%;
@@ -57,7 +57,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .info {
+  .more-info {
     position: relative;
     left: 0;
     top: 0;
@@ -74,23 +74,6 @@ footer {
     text-align: left;
   }
 }
-.info{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    text-align: center;
-}
-.W{
-    display: list-item;
-    position: absolute;
-    top: 2%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    text-align: center;
-  }
 
 .container {
     display: grid;
